@@ -1,0 +1,29 @@
+home page
+- welcome box
+- letter box (-> letter page)
+- projects box (-> projects page)
+- outcomes box (-> outcomes page)
+
+letter page
+- back (-> home page)
+- next (-> outcomes page)
+- letter text
+
+projects page
+- home (-> home page)
+- back (-> letter page)
+- next (-> project #1)
+
+
+outcomes page
+- home (-> home page)
+- back (-> project #3)
+- next (-> outcome #1)
+- outcome #1 box (-> outcome #1 page)
+- outcome #2 box (-> outcome #2 page)
+- ^ etc...
+
+outcome #n page
+- home (-> home page)
+- back (-> n!=1 ? outcome #n-1 : outcomes page)
+- next (-> n!=6 ? outcome #n+1 : [nothing])
