@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
     color-scheme: light dark;
@@ -74,4 +75,34 @@ h4 {
 page>p {
     font-weight: 400;
     line-height: 1.5;
+}
+
+h3 {
+    font-family: "Alegreya", 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+h6 {
+    color:var(--c2);
+    font-style: italic;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+h6>a {
+    color: var(--c3);
+}
+
+.excerpt{
+    padding: 0 5vw;
+    font-size: 2vh;
+    /* font-style: italic; */
+    font-family: "Alegreya", 'Times New Roman', Times, serif;
 }
